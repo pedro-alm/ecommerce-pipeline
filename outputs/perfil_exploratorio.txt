@@ -1,0 +1,39 @@
+======================================================================
+PERFIL EXPLORATÓRIO DO CSV BRUTO
+======================================================================
+Arquivo ........: data.csv
+Linhas .........: 541,909
+Colunas ........: InvoiceNo, StockCode, Description, Quantity, InvoiceDate, UnitPrice, CustomerID, Country
+
+Nulos por coluna (quantidade e %):
+  InvoiceNo            0  ( 0.00%)
+  StockCode            0  ( 0.00%)
+  Description      1,454  ( 0.27%)
+  Quantity             0  ( 0.00%)
+  InvoiceDate          0  ( 0.00%)
+  UnitPrice            0  ( 0.00%)
+  CustomerID     135,080  (24.93%)
+  Country              0  ( 0.00%)
+
+Pontos de qualidade esperados:
+  Quantidades negativas (cancelamentos/devoluções) : 10,624
+  Linhas de fatura cancelada (prefixo C)            : 9,288
+  Preço unitário zero                               : 2,515
+  Preço unitário negativo                           : 2
+  Linhas de serviço (frete, desconto, ajuste)       : 2,916
+  Linhas duplicadas (idênticas)                     : 5,268
+  Faturas distintas                                 : 25,900
+
+Top 5 países por número de linhas:
+  United Kingdom         495,478
+  Germany                  9,495
+  France                   8,557
+  EIRE                     8,196
+  Spain                    2,533
+
+Amostra (5 linhas):
+  536365 | 85123A | WHITE HANGING HEART T-LIGHT HOLDER | 6 | 12/1/2010 8:26 | 2.55 | 17850 | United Kingdom
+  536365 | 71053 | WHITE METAL LANTERN | 6 | 12/1/2010 8:26 | 3.39 | 17850 | United Kingdom
+  536365 | 84406B | CREAM CUPID HEARTS COAT HANGER | 8 | 12/1/2010 8:26 | 2.75 | 17850 | United Kingdom
+  536365 | 84029G | KNITTED UNION FLAG HOT WATER BOTTLE | 6 | 12/1/2010 8:26 | 3.39 | 17850 | United Kingdom
+  536365 | 84029E | RED WOOLLY HOTTIE WHITE HEART. | 6 | 12/1/2010 8:26 | 3.39 | 17850 | United Kingdom

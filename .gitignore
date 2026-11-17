@@ -1,0 +1,26 @@
+# Segredos
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Spark
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Dados (o CSV original e as camadas geradas não vão para o GitHub)
+data/raw/*
+!data/raw/.gitkeep
+data/curated/*
+!data/curated/.gitkeep
+data/aggregates/*
+!data/aggregates/.gitkeep
+data/sample/*.csv
+data/curated_amostra/
+data/aggregates_amostra/
+outputs_amostra/

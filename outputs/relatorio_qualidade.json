@@ -1,0 +1,24 @@
+{
+  "linhas_lidas": 541909,
+  "duplicadas_removidas": 5268,
+  "descartadas_data_ou_fatura_invalida": 0,
+  "linhas_curated": 536641,
+  "linhas_cancelamento": 9251,
+  "faturas_canceladas": 3836,
+  "linhas_sem_cliente": 135037,
+  "linhas_sem_descricao": 1454,
+  "linhas_servico": 2910,
+  "linhas_suspeitas_preco": 2516,
+  "faturas_distintas": 25900,
+  "clientes_distintos": 4372,
+  "codigos_distintos": 3958,
+  "paises_distintos": 38,
+  "data_min": "2010-12-01 06:26",
+  "data_max": "2011-12-09 10:50",
+  "camada_curated": "/home/pedro/ecommerce-pipeline/data/curated/transacoes",
+  "particionamento": [
+    "ano",
+    "mes"
+  ],
+  "formato": "parquet"
+}

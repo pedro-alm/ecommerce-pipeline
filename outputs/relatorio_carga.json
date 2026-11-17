@@ -1,0 +1,38 @@
+{
+  "banco": "ecommerce_uk",
+  "colecoes": {
+    "pedidos": {
+      "parquet": 23195,
+      "mongodb": 23195,
+      "novos": 23195,
+      "atualizados": 0,
+      "confere": true,
+      "indices": [
+        "data_hora",
+        "cliente_id",
+        "pais",
+        "itens.codigo_produto"
+      ]
+    },
+    "clientes": {
+      "parquet": 4362,
+      "mongodb": 4362,
+      "novos": 4362,
+      "atualizados": 0,
+      "confere": true,
+      "indices": [
+        "valor_total_gbp"
+      ]
+    },
+    "produtos": {
+      "parquet": 3817,
+      "mongodb": 3817,
+      "novos": 3817,
+      "atualizados": 0,
+      "confere": true,
+      "indices": [
+        "quantidade_vendida"
+      ]
+    }
+  }
+}

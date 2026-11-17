@@ -1,0 +1,7 @@
+pyspark>=3.5,<4
+pymongo[srv]>=4.6
+certifi
+pandas>=2.0
+python-dotenv>=1.0
+# Opcional: download automático do dataset pela Kaggle API
+# kaggle>=1.6
